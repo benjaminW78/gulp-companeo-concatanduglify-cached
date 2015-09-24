@@ -17,7 +17,7 @@ module.exports = function (grunt) {
     // Please see the Grunt documentation for more information regarding task
     // creation: http://gruntjs.com/creating-tasks
 
-    grunt.registerMultiTask('companeo_concatanduglify_cached', 'Uglify each file only if necessary and concat all after.', function () {
+    gulp.task('companeo_concatanduglify_cached', function () {
         // Merge task-specific and/or target-specific options with these defaults.
         var options = this.options({
                 separator  : ';',
