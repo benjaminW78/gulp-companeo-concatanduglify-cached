@@ -1,0 +1,6 @@
+.idea/
+node_modules/
+result/
+
+npm-debug.log
+atlassian-ide-plugin.xml
