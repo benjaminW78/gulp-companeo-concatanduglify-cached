@@ -1,0 +1,43 @@
+{
+  "name": "gulp-companeo-concatanduglify-cached",
+  "description": "Uglify each file only if necessary and concat all after.",
+  "version": "1.2.0",
+  "homepage": "https://github.com/benjaminW78/gulp-companeo-concatanduglify-cached",
+  "author": {
+    "name": "Companeo IT department",
+    "email": "it@companeo.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/benjaminW78/gulp-companeo-concatanduglify-cached.git"
+  },
+  "bugs": {
+	    "url": "git://github.com/benjaminW78/gulp-companeo-concatanduglify-cached.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Companeo/grunt-companeo-concatanduglify-cached/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "lodash": "^2.4.1",
+    "uglify-js": "^2.4.15",
+    "uri-path": "0.0.2"
+  },
+  "keywords": [
+    "gruntplugin",
+    "uglify",
+    "concat",
+    "cache",
+    "speed",
+    "companeo"
+  ]
+}
